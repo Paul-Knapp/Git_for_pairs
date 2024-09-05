@@ -1,8 +1,9 @@
-class Magical_cardboard
-    attr_reader :mana_value, :color, :type
+class MagicCard
+  attr_reader :mana_value, :color
 end
-    def initialize
-        @mana_value = mana_value
-        @color = color
-        @type = type
-    end
+
+def initialize(mana_value, guild)
+  @mana_value = mana_value
+  @guild = guild
+end
+
